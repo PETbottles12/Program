@@ -10,7 +10,7 @@ $num1 = null;
 $num2 = null;
 $num = $_POST['text1']; //HTMLからPOST
 $num1 = $_POST["sentaku"]; //HTMLから選択をPOST
-//$num2 = $_POST["sex"];//HTMLから性別をPOST
+
 
 if(!isset($_POST['sex']) || $_POST['sex']== ""){
   print "性別を入れてください。";
@@ -30,6 +30,8 @@ print "性です。";
 }else{
   print "数字いれなさいよ！！！"; //例外処理
 }
+
+
 
  //var_dump($num ,$num1 ,$num2); //デバックチェック
 
