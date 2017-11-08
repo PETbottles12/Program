@@ -5,6 +5,8 @@
   <body>
     <p>計算結果は！！でれでれ〜〜〜でん！！！</p>
 <?php
+
+
 $num = null;
 $num1 = null;
 $num2 = null;
